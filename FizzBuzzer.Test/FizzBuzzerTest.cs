@@ -9,16 +9,16 @@ namespace FizzBuzzer.Test
         public void GivenValuesArePassed_WhenNoDivisibleBy3Or5_ThenPrintGivenNumber()
         {
             ////Arrange
-            //var input = 1;
-            //var expected = 1;
+            var input = 2;
+            var expected = 2;
 
             ////Act
-            var output = FizzBuzzer.GetValue(1);
+            var output = FizzBuzzer.GetValue(input);
 
             ////Assert
             //Assert.Equal(input.ToString(), output);
 
-            Assert.Equal(1, output);
+            Assert.Equal(expected, output);
         }
     }
 }

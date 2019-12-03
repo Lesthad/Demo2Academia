@@ -6,7 +6,7 @@ namespace FizzBuzzer
     {
         public static int GetValue(int input)
         {
-            return 1;
+            return input;
         }
     }
 }
